@@ -154,7 +154,7 @@ iex> fun.(1)
 2
 ```
 
-上面例子中`&1`是传给函数的第一个参数。`&(&1 + 1)`等价于`fn x -> x + 1 end`。上面的语法适合于定义短小的函数。更多的关于函数捕捉操作符`&`，请参考[Kernel.SpecialForms文档](http://elixir-lang.org/docs/stable/Kernel.SpecialForms.html)。
+上面例子中`&1`是传给函数的第一个参数。`&(&1 + 1)`等价于`fn x -> x + 1 end`。上面的语法适合于定义短小的函数。更多的关于函数捕捉操作符`&`，请参考[Kernel.SpecialForms文档](https://hexdocs.pm/elixir/Kernel.SpecialForms.html#&/1)。
 
 ## 8.5 默认参数
 
